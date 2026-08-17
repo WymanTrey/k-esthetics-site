@@ -56,3 +56,14 @@ h1, h2, h3, h4, h5, h6 {
 .logo-serif {
   font-family: var(--font-logo-serif), serif;
 }
+
+/* Glossy/polished black — a soft top highlight + diagonal sheen over a
+   deep vertical gradient, instead of flat black. Used anywhere the
+   dark hero-background color would otherwise sit flat. */
+.shiny-black {
+  background-color: var(--hero-background);
+  background-image:
+    radial-gradient(ellipse 80% 45% at 50% -8%, rgba(255, 255, 255, 0.10), transparent 60%),
+    linear-gradient(120deg, rgba(255, 255, 255, 0.05) 0%, transparent 35%),
+    linear-gradient(to bottom, #232019 0%, #14120F 55%, #080706 100%);
+}

@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import BookingEmbed from "@/components/BookingEmbed";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
@@ -32,6 +33,14 @@ const HomePage: React.FC = () => {
           description="Every treatment offered, with real pricing — no surprises."
         >
           <Services />
+        </Section>
+
+        <Section
+          id="book"
+          title="Book Online"
+          description="Pick a service and time below — no phone call needed."
+        >
+          <BookingEmbed />
         </Section>
 
         <Section
