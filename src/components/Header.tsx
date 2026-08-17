@@ -20,18 +20,17 @@ const Header: React.FC = () => {
     return (
         <header className="bg-transparent fixed top-0 left-0 right-0 md:absolute z-50 mx-auto w-full">
             <Container className="!px-0">
-                <nav className="shadow-md md:shadow-none bg-white md:bg-white/5 md:backdrop-blur-md mx-auto flex justify-between items-center py-2 px-5 md:py-6">
+                <nav className="shadow-md bg-white mx-auto flex justify-between items-center py-2 px-5 md:py-4">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <span className="md:hidden"><KLogo variant="dark" /></span>
-                        <span className="hidden md:block"><KLogo variant="light" /></span>
+                        <KLogo variant="dark" />
                     </Link>
 
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex items-center space-x-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground md:text-white/85 hover:text-foreground-accent md:hover:text-white transition-colors">
+                                <Link href={item.url} className="text-foreground hover:text-foreground-accent transition-colors">
                                     {item.text}
                                 </Link>
                             </li>
