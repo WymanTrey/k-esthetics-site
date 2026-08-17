@@ -29,8 +29,7 @@ export const footerDetails: {
             url: "#contact"
         }
     ],
-    // TODO: real email wasn't collected on the intake form — get it from Aubriell.
-    email: '[need real business email from Aubriell]',
+    email: 'kestheticsstudio11@gmail.com',
     telephone: '+1 (701) 610-1855',
     address: '4088 S Washington St, Suite 214, Grand Forks, ND 58201',
     // Thursday assumed same as Tue/Wed (10am-6pm) — her form had a typo (listed "Tuesday" twice, no Thursday). Confirm.
