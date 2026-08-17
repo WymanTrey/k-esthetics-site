@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
 import Container from "@/components/Container";
@@ -31,6 +32,14 @@ const HomePage: React.FC = () => {
           description="Every treatment offered, with real pricing — no surprises."
         >
           <Services />
+        </Section>
+
+        <Section
+          id="reviews"
+          title="Leave the First Review"
+          description="Grand opening special — be one of the first to book and review K. ESTHETICS."
+        >
+          <Reviews />
         </Section>
 
         <FAQ />

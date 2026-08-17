@@ -21,18 +21,23 @@ export const footerDetails: {
             url: "#services"
         },
         {
+            text: "Reviews",
+            url: "#reviews"
+        },
+        {
             text: "Contact",
             url: "#contact"
         }
     ],
-    // TODO: real phone/email weren't collected on the intake form — get these from Aubriell.
+    // TODO: real email wasn't collected on the intake form — get it from Aubriell.
     email: '[need real business email from Aubriell]',
-    telephone: '[need real business phone from Aubriell]',
+    telephone: '+1 (701) 610-1855',
     address: '4088 S Washington St, Suite 214, Grand Forks, ND 58201',
     // Thursday assumed same as Tue/Wed (10am-6pm) — her form had a typo (listed "Tuesday" twice, no Thursday). Confirm.
     hours: 'Mon 11-7 · Tue-Thu 10-6 · Fri 9-4 · Sat 10-2 · Sun 12-3',
-    // No Google Business Profile found yet (brand-new studio) — add once she has one.
-    googleReviewUrl: '',
+    // She has a Google Business Profile (0 reviews so far, brand new) — this
+    // gives early clients a place to leave her very first reviews.
+    googleReviewUrl: 'https://www.google.com/maps/place/K.+ESTHETICS/data=!4m7!3m6!1s0x52c6811e40675945:0xa55f906dca36d842!8m2!3d47.8813625!4d-97.0466128!16s%2Fg%2F11zwnr9yjb!19sChIJRVlnQB6BxlIRQtg2ym2QX6U',
     socials: {
         instagram: 'https://www.instagram.com/k.esthetics/',
         facebook: 'https://www.facebook.com/61592233396314',
