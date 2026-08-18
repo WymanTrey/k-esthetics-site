@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="p-1.5 rounded-2xl bg-gradient-to-br from-primary to-secondary w-fit mx-auto lg:mx-0">
                 <Image
-                    src="/images/about-photo.webp"
+                    src="/images/aubriell.jpg"
                     alt={aboutDetails.photoAlt}
                     width={384}
                     height={480}
