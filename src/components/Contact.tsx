@@ -22,7 +22,17 @@ const Contact: React.FC = () => {
             <div className="p-8 rounded-2xl border border-gray-100 shadow-sm bg-white flex flex-col justify-center">
                 <div className="flex items-start gap-3 mb-5">
                     <FiMapPin className="text-primary mt-1 shrink-0" size={22} />
-                    <p>{footerDetails.address}</p>
+                    <div>
+                        <p>{footerDetails.address}</p>
+                        <a
+                            href={footerDetails.googleReviewUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-primary font-semibold hover:text-primary-accent"
+                        >
+                            View on Google
+                        </a>
+                    </div>
                 </div>
                 <div className="flex items-start gap-3 mb-5">
                     <FiPhone className="text-primary mt-1 shrink-0" size={22} />

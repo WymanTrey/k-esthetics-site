@@ -32,7 +32,6 @@ export const footerDetails: {
     email: 'kestheticsstudio11@gmail.com',
     telephone: '+1 (701) 610-1855',
     address: '4088 S Washington St, Suite 214, Grand Forks, ND 58201',
-    // Thursday assumed same as Tue/Wed (10am-6pm) — her form had a typo (listed "Tuesday" twice, no Thursday). Confirm.
     hours: 'Mon 11-7 · Tue-Thu 10-6 · Fri 9-4 · Sat 10-2 · Sun 12-3',
     // She has a Google Business Profile (0 reviews so far, brand new) — this
     // gives early clients a place to leave her very first reviews.
