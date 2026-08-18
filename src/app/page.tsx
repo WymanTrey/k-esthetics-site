@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import Packages from "@/components/Packages";
 import BookingEmbed from "@/components/BookingEmbed";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
@@ -33,6 +34,14 @@ const HomePage: React.FC = () => {
           description="Every treatment offered, with real pricing — no surprises."
         >
           <Services />
+        </Section>
+
+        <Section
+          id="packages"
+          title="Packages & Bundles"
+          description="Bundle your favorite services and save."
+        >
+          <Packages />
         </Section>
 
         <Section

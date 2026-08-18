@@ -15,6 +15,13 @@ export interface IServiceCategory {
     services: IService[];
 }
 
+export interface IPackage {
+    name: string;
+    description: string;
+    price: string;
+    savings: string;
+}
+
 export interface IReview {
     name: string;
     timeAgo: string;
