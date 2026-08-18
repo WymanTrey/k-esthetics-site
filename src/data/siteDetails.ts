@@ -23,8 +23,6 @@ export const siteDetails = {
         addressRegion: 'ND',
         postalCode: '58201',
     },
-    // Thu hours were ambiguous on her intake form (typo'd as "Tuesday"
-    // twice) — assumed same as Tue/Wed (10am-6pm) pending her confirmation.
     schemaHours: [
         { days: ['Monday'], opens: '11:00', closes: '19:00' },
         { days: ['Tuesday', 'Wednesday', 'Thursday'], opens: '10:00', closes: '18:00' },
