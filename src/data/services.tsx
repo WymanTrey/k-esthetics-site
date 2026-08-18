@@ -50,11 +50,11 @@ export const serviceCategories: IServiceCategory[] = [
         name: "Add-Ons",
         icon: <FiDroplet size={22} />,
         services: [
-            { name: "Anti-Red Treatment", duration: "5 mins", price: "$5" },
-            { name: "Lip Mask", duration: "10 mins", price: "$6" },
-            { name: "Face Mask", duration: "15 mins", price: "$7" },
-            { name: "Under-Eye Mask", duration: "15 mins", price: "$6" },
-            { name: "Vajacial Mask", duration: "15 mins", price: "$10" },
+            { name: "Anti-Red Treatment", duration: "5 mins", price: "$4" },
+            { name: "Lip Mask", duration: "10 mins", price: "$5" },
+            { name: "Face Mask", duration: "15 mins", price: "$6" },
+            { name: "Under-Eye Mask", duration: "15 mins", price: "$5" },
+            { name: "Vajacial Mask", duration: "15 mins", price: "$9" },
         ],
     },
 ];
